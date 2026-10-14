@@ -76,7 +76,7 @@ public class MainMenuScreen extends MenuScreen {
 
             for (MenuButtonSaveFile button : menuButtonSaves) {
                 if (button.contains(touchPos.x, touchPos.y)) {
-                button.onTouch();
+                    button.onTouch();
                 }
             }
 
