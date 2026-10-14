@@ -22,6 +22,7 @@ public class MenuButtonSaveFile extends Rectangle implements MenuButton {
 
         this.font = new BitmapFont();
     }
+
     public void draw(SpriteBatch batch){};
 
     public void draw(SpriteBatch batch, boolean beingDeleted) {
